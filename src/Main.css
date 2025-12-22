@@ -1,0 +1,11 @@
+
+
+
+.container {
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-auto-rows: minmax(150px, auto);
+    
+}

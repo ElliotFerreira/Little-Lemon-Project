@@ -1,11 +1,12 @@
-import logo from "./images/logo.png"
+import logo from "./images/logo.svg"
+import './Nav.css'
 
 
 export default function Nav(){
     return (
-        <nav>
+        <nav className="navbar">
 
-            <img src={logo} alt="Logo"></img>
+            <img src={logo} alt="Logo" className="logo"></img>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">Menu</a></li>
